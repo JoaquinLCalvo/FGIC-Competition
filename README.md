@@ -1,6 +1,19 @@
 # Fine-Grained Image Classification (FGIC) Competition
 
-This repository contains the code for a Fine-Grained Image Classification project using Vision Transformers (ViT) in PyTorch. The project is structured with modular, reusable components and supports training with early stopping and model checkpoints.
+## Introduction
+
+Fine-Grained Image Classification in Neural Networks for Computer Vision refers to the task of categorizing images into very specific and detailed classes, such as different species of birds or types of flowers. This type of classification requires the model to be highly
+accurate and sensitive to subtle differences in visual features, as the distinctions between classes are often quite subtle.
+
+## Proposed solution
+
+The solution leveraged a timm's vit_large_patch16_224 model achieving 81.2% Top-1 accuracy in classifying the 100 classes from the Mammalia dataset. The competition had a live format where each participant had 2 hours from the delivery of the dataset until the delivery of a final model. The implementation includes:
+
+- Early Stopping.
+- Data Augmentation.
+- AdamW optimizer.
+- A learning rate cosine scheduler.
+- Mixed Precision Training.
 
 ## Project Structure
 
