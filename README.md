@@ -7,7 +7,7 @@ accurate and sensitive to subtle differences in visual features, as the distinct
 
 ## Proposed solution
 
-The solution leveraged a timm's vit_large_patch16_224 model achieving 81.2% Top-1 accuracy in classifying the 100 classes from the Mammalia dataset. The competition had a live format where each participant had 2 hours from the delivery of the dataset until the delivery of a final model. The implementation includes:
+The solution leveraged a timm's `vit_large_patch16_224` model achieving 81.2% Top-1 accuracy in classifying the 100 classes from the Mammalia dataset. The competition had a live format where each participant had 2 hours from the delivery of the dataset until the delivery of a final model. The implementation includes:
 
 - Early Stopping.
 - Data Augmentation.
